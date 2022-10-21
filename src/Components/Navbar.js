@@ -7,8 +7,8 @@ const Navbar = () => {
 
 
     return (
-        <div>
-            <div className='shadow-sm w-full fixed top-0 left-0 z-50'>
+        <nav>
+            <div className='shadow-sm w-full fixed top-0 left-0 z-50 border-b'>
                 <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
                     <div className=' font-bold text-2xl cursor-pointer font-[Poppins] 
   text-white'>
@@ -63,7 +63,7 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 

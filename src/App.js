@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Errorpage from './Pages/Errorpage/Errorpage';
@@ -7,7 +6,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="pt-16">
+    <div className="">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
