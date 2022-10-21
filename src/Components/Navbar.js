@@ -12,11 +12,11 @@ const Navbar = () => {
                 <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
                     <div className=' font-bold text-2xl cursor-pointer font-[Poppins] 
   text-white'>
-                        <span className='flex items-center text-2xl  text-[#009e66] mr-1 pt-2'>
+                        <span className='flex items-center md:text-2xl text-xl  text-black mr-1 pt-2'>
 
 
 
-                            <h1 className='font-mons'>Logo</h1>
+                            <h1 className='font-bubble'>FontPage-FreeBirds</h1>
                         </span>
 
 
