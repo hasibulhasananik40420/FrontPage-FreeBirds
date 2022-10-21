@@ -7,7 +7,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="">
+    <div className="pt-16">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
