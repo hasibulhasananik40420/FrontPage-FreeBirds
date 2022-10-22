@@ -61,10 +61,10 @@ const Footer = () => {
 
 
                     <div className='flex gap-5 pt-4 pb-2 cursor-pointer'>
-                        <FaFacebookF className='bg-white text-black w-6 h-6 p-1 rounded-sm'></FaFacebookF>
-                        <FiInstagram className='bg-white text-black w-6 h-6 p-1  rounded-sm'></FiInstagram>
-                        <FiLinkedin className='bg-white text-black w-6 h-6 p-1 rounded-sm'></FiLinkedin>
-                        <AiOutlineYoutube className='bg-white text-black w-6 h-6 p-1 rounded-sm'></AiOutlineYoutube>
+                        <FaFacebookF className='bg-white text-black w-6 h-6 p-1 rounded-sm transform transition duration-500 hover:scale-110'></FaFacebookF>
+                        <FiInstagram className='bg-white text-black w-6 h-6 p-1  rounded-sm transform transition duration-300 hover:scale-110'></FiInstagram>
+                        <FiLinkedin className='bg-white text-black w-6 h-6 p-1 rounded-sm transform transition duration-500 hover:scale-110'></FiLinkedin>
+                        <AiOutlineYoutube className='bg-white text-black w-6 h-6 p-1 rounded-sm transform transition duration-500 hover:scale-110'></AiOutlineYoutube>
 
                     </div>
 

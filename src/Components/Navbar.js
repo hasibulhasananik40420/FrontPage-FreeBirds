@@ -22,7 +22,7 @@ const Navbar = () => {
                     </div>
 
                     <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
-                        <BiMenuAltLeft className='border border-black shadow rounded w-10 ' name={open ? 'close' : 'menu'}></BiMenuAltLeft>
+                        <BiMenuAltLeft className='border border-[#0f172a] shadow rounded w-10 hover:border-[#6d28d9] duration-300' name={open ? 'close' : 'menu'}></BiMenuAltLeft>
                     </div>
 
 
