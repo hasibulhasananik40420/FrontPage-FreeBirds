@@ -2,7 +2,7 @@ import React from 'react';
 
 const CourseDetails = () => {
     return (
-        <div className='pt-12 mb-24'>
+        <div className='pt-12 mb-24 container mx-auto'>
             <div className='text-center'>
                 <img className='w-24 mx-auto' src="https://learnwithsumit.com/_next/static/media/peep1.f4841716.svg" alt="" />
                 <h1 className='text-3xl font-bold mt-4'>এক নজরে ওয়েব ডিজাইন বাংলা কোর্স</h1>
@@ -11,10 +11,10 @@ const CourseDetails = () => {
 
 
             <div className=''>
-                <div className='w-5/6 flex flex-wrap mx-auto shadow-lg rounded-md border mt-12 px-4 py-4'>
+                <div className='lg:w-5/6 grid lg:grid-cols-3 md:grid-cols-2 justify-items-center  mx-auto shadow-lg rounded-md border mt-12  p-4'>
 
 
-                    <div className='w-[360px] p-8 border-b lg:border-r'>
+                    <div className=' p-8 border-b lg:border-r'>
                         <div className='transform transition duration-500 hover:scale-110'>
                             <div className='flex justify-center'>
                                 <img className='w-16' src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607429634267.png" alt="" />
@@ -25,7 +25,7 @@ const CourseDetails = () => {
 
                         </div>
                     </div>
-                    <div className='w-[360px] p-8  border-b lg:border-r'>
+                    <div className='  p-8  border-b lg:border-r'>
                         <div className='transform transition duration-500 hover:scale-110'>
                             <div className='flex justify-center'>
                                 <img className='w-16' src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607429725146.png" alt="" />
@@ -36,7 +36,7 @@ const CourseDetails = () => {
 
                         </div>
                     </div>
-                    <div className='w-[360px] p-8 border-b'>
+                    <div className='  p-8 border-b'>
                         <div className='transform transition duration-500 hover:scale-110'>
                             <div className='flex justify-center'>
                                 <img className='w-16' src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607429634267.png" alt="" />
@@ -47,7 +47,7 @@ const CourseDetails = () => {
 
                         </div>
                     </div>
-                    <div className='w-[360px] p-8 border-b lg:border-b-0 lg:border-r'>
+                    <div className='  p-8 border-b lg:border-b-0 lg:border-r'>
                         <div className='transform transition duration-500 hover:scale-110'>
                             <div className='flex justify-center'>
                                 <img className='w-16' src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607429634267.png" alt="" />
@@ -58,7 +58,7 @@ const CourseDetails = () => {
 
                         </div>
                     </div>
-                    <div className='w-[360px] p-8  border-b lg:border-b-0 lg:border-r'>
+                    <div className='  p-8  border-b lg:border-b-0 lg:border-r'>
                         <div className='transform transition duration-500 hover:scale-110'>
                             <div className='flex justify-center'>
                                 <img className='w-16' src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607429634267.png" alt="" />
@@ -69,7 +69,7 @@ const CourseDetails = () => {
 
                         </div>
                     </div>
-                    <div className='w-[360px] p-8 '>
+                    <div className='  p-8 '>
                         <div className='transform transition duration-500 hover:scale-110'>
                             <div className='flex justify-center'>
                                 <img className='w-16' src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1607429634267.png" alt="" />

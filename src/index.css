@@ -5,8 +5,26 @@
 
 *>* {
   font-family: 'Hind Siliguri', sans-serif;
+
 }
 
 .cardShadow {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/* scrollbar Design */
+
+.csbar::-webkit-scrollbar {
+  width: 2px;
+  height: 25px;
+}
+
+.csbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.csbar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
