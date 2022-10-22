@@ -6,7 +6,7 @@ const FaqAccordion = ({ data }) => {
         <div>
             <div onClick={() => { setVisible(!visible) }}
                 style={{ backgroundColor: `${visible ? 'blue' : ''}` }}
-                className='w-full  h-14 min-h-max mb-2 border-b lg:p-2 hover:bg-red-500 duration-500 text-black hover:text-white cursor-pointer'>
+                className='w-full  h-14 min-h-max mb-2 border-b lg:p-2  duration-500 text-black hover:text-white cursor-pointer'>
                 <div className='p-2  w-full flex justify-between'>
                     {/* Question */}
                     <div>
