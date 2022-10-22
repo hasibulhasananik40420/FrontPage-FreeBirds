@@ -3,21 +3,21 @@ import React from 'react';
 const TopBanner = () => {
     return (
         <section
-            className="bg-[url('https://learnwithsumit.com/_next/static/media/pattern-dark.20747baf.svg')]  min-h-[100vh] lg:flex items-center mt-16"
+            className="bg-[url('https://learnwithsumit.com/_next/static/media/pattern-dark.20747baf.svg')]  min-h-[100vh] lg:flex items-center mt-16 bg-opacity-0	"
         >
-            <div className=' p-10 container mx-auto lg:flex gap-6'>
+            <div className=' lg:p-10 container mx-auto lg:flex gap-6'>
                 {/* text part */}
                 <div className=" p-4  w-full">
                     <h3 className='text-lg mb-4  font-bold'>ওয়েব ডিজাইন বাংলা কোর্স</h3>
-                    <h3 className='lg:text-3xl text-xl font-bold mb-4 font-poppins'>Complete <span className='text-indigo-700'>Web Design </span>Course with Frontpage Freebirds</h3>
-                    <h3 className='text-lg mb-4  font-bold font-poppins'>HTML, CSS ,BOOTSTRAP,TAILWIND CSS , JAVASCRIPT , FIGMA. </h3>
+                    <h3 className='lg:text-5xl text-2xl font-bold mb-4 font-poppins'>Complete <span className='text-indigo-700'>Web Design </span>Course.</h3>
+                    <h3 className=' mb-4  font-bold font-poppins'>HTML, CSS ,BOOTSTRAP,TAILWIND CSS , JAVASCRIPT , FIGMA. </h3>
                     <h3 className='text-lg'>HTML, CSS, ওয়েবসাইট লেআউট, রেসপন্সিভ ও ইন্ট্যারাক্টিভ ডিজাইনের মাধ্যমে ওয়েব ডিজাইনের জন্য প্রয়োজনীয় স্কিলের শেখার পাশাপাশি ওয়েব ডিজাইনার হিসেবে ক্যারিয়ার শুরু করার পরিপূর্ণ গাইডলাইন রয়েছে এই কোর্সে!
                     </h3>
-                    <button className='my-4 py-2 px-4 rounded-full hover:bg-black hover:text-white cardShadow text-xl duration-500'>বিস্তারিত পড়ুন</button>
+                    <button className='bg-white my-4 py-2 px-4 rounded-full hover:bg-black hover:text-white cardShadow text-xl duration-500'>বিস্তারিত পড়ুন</button>
                 </div>
                 {/* Course Card */}
                 <div className=" p-4 w-full">
-                    <div className='lg:w-3/4 cardShadow rounded-md p-3 mx-auto'>
+                    <div className='lg:w-3/4 cardShadow rounded-md p-3 mx-auto bg-white'>
                         <img className='w-full rounded-md mb-3' src="https://i.ibb.co/P9RLm07/Complete-Web-Design-Course.jpg" alt="" />
                         <button className='mt-3 py-3 w-full text-lg text-white bg-indigo-600 rounded-md'>রেজিস্ট্রেশন করুন</button>
                         <div className="lg:flex  mt-3 ">

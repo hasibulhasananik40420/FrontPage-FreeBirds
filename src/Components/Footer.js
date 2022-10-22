@@ -32,9 +32,7 @@ const Footer = () => {
 
                         <p > (Available : Sat - Thu, 10:00 AM to 7:00 PM)</p>
                     </div>
-                    <div className='pt-4 pb-2 cursor-pointer'>
-                        <img src="https://web.programming-hero.com/static/media/app-download.439edada.png" alt="" />
-                    </div>
+                    
 
                 </div>
 
