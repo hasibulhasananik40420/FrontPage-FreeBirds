@@ -14,8 +14,6 @@ const Navbar = () => {
   text-white'>
                         <span className='flex items-center md:text-2xl text-xl  text-black mr-1 pt-2'>
 
-
-
                             <h1 className='font-bubble'>FontPage-FreeBirds</h1>
                         </span>
 
@@ -24,7 +22,7 @@ const Navbar = () => {
                     </div>
 
                     <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
-                        <BiMenuAltLeft name={open ? 'close' : 'menu'}></BiMenuAltLeft>
+                        <BiMenuAltLeft className='border border-black shadow rounded w-10 ' name={open ? 'close' : 'menu'}></BiMenuAltLeft>
                     </div>
 
 
